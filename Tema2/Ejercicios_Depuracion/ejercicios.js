@@ -36,13 +36,13 @@ function ej4() {
 
     let operacion = (uno + dos + tres) / 3;
 
-    alert("La media es " + operacion);
+    alert(`La media es " ${operacion}`);
 }
 
 function ej5() {
     let millas = prompt("Indica una cantidad de millas nauticas");
     let operacion = parseInt(millas) * 1852;
-    alert(millas + " equivale a " + operacion + " metros");
+    alert(`${millas} millas nauticas equivale a " ${operacion} metros`);
 }
 
 function ej6() {
